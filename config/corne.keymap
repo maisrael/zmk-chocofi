@@ -34,10 +34,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none   &kp N1            &kp N2     &kp N3         &kp N4            &kp N5              &kp N6    &kp N7    &kp N8  &kp N9     &kp N0  &trans
-&trans  &kp LS(NUMBER_0)  &kp MINUS  &kp LS(EQUAL)  &kp LS(NUMBER_7)  &kp LS(NUMBER_8)    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
-&trans  &trans            &trans     &trans         &trans            &trans              &trans    &trans    &trans  &trans     &trans  &trans
-                                     &trans         &to 0             &trans              &trans    &trans    &to 2
+&none   &kp N1            &kp N2     &kp N3     &kp N4            &kp N5          &kp N6    &kp N7    &kp N8  &kp N9     &kp N0  &trans
+&trans  &kp LS(NUMBER_0)  &kp SLASH  &kp MINUS  &kp LS(NUMBER_7)  &kp LS(BSLH)    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
+&trans  &trans            &trans     &trans     &trans            &trans          &trans    &trans    &trans  &trans     &trans  &trans
+                                     &trans     &to 0             &trans          &trans    &trans    &to 2
             >;
         };
 
@@ -49,9 +49,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp HASH  &kp DLLR  &kp PRCNT    &kp GRAVE             &kp RA(GRAVE)     &kp LS(NUMBER_9)  &kp LS(NUMBER_0)  &kp LS(NUMBER_4)  &trans
-&trans  &kp LS(EQUAL)     &trans            &trans    &trans    &trans       &kp LS(RA(NUMBER_7))  &kp EQUAL         &kp RA(NUMBER_8)  &kp RA(NUMBER_9)  &kp BSLH          &trans
-&trans  &trans            &trans            &trans    &trans    &trans       &kp RA(EQUAL)         &kp RS(NUMBER_7)  &kp RA(NUMBER_7)  &kp RA(NUMBER_0)  &kp PIPE          &trans
+&trans  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp HASH  &kp DLLR  &kp PRCNT    &kp GRAVE             &kp LS(GRAVE)     &kp LS(NUMBER_8)      &kp LS(NUMBER_9)      &kp RA(NUMBER_4)  &trans
+&trans  &kp LS(MINUS)     &trans            &trans    &trans    &trans       &kp RA(NUMBER_7)      &kp EQUAL         &kp RA(NUMBER_8)      &kp RA(NUMBER_9)      &trans            &trans
+&trans  &trans            &trans            &trans    &trans    &trans       &kp RA(LS(NUMBER_7))  &kp RS(NUMBER_7)  &kp RA(LS(NUMBER_8))  &kp RA(LS(NUMBER_9))  &trans            &trans
                                             &trans    &to 0     &trans       &trans                &trans            &kp RALT
             >;
         };
